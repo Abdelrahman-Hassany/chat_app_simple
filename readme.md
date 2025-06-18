@@ -99,6 +99,7 @@ Open in two tabs or windows to test real-time messaging.
 
 # project structure
 
+```
 django_chat_app/
 ├── chat_project/
 │   ├── __init__.py
@@ -115,7 +116,7 @@ django_chat_app/
 │   ├── urls.py
 │   └── templates/
 │       └── chat_template.html
-
+```
 
 ## Database Usage & Suggestions
 
