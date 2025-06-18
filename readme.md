@@ -97,7 +97,7 @@ Visit: http://127.0.0.1:8000/chat/
 
 Open in two tabs or windows to test real-time messaging.
 
-#project structure
+# project structure
 
 django_chat_app/
 ├── chat_project/
