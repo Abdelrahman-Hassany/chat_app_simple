@@ -97,26 +97,25 @@ Visit: http://127.0.0.1:8000/chat/
 
 Open in two tabs or windows to test real-time messaging.
 
-#
+#project structure
 
 django_chat_app/
-│
 ├── chat_project/
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
-│   ├── asgi.py               # ASGI entry point
+│   ├── asgi.py        # ASGI entry point
 │   └── wsgi.py
-│
 ├── chat_app/
 │   ├── __init__.py
-│   ├── models.py             # Message model
-│   ├── views.py              # chat_view
-│   ├── consumers.py          # WebSocket consumer
-│   ├── routing.py            # WebSocket URL patterns
-│   ├── templates/
-│   │   └── chat_template.html
-│   └── urls.py
+│   ├── models.py      # Message model
+│   ├── views.py       # chat_view
+│   ├── consumers.py   # WebSocket consumer
+│   ├── routing.py     # WebSocket URL patterns
+│   ├── urls.py
+│   └── templates/
+│       └── chat_template.html
+
 
 ## Database Usage & Suggestions
 
